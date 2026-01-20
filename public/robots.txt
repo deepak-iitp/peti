@@ -1,0 +1,12 @@
+# Robots.txt for Peti
+# https://peti.money
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://peti.money/sitemap.xml
+
+# Disallow admin/api paths (if any in future)
+Disallow: /api/
+

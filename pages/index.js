@@ -10,6 +10,19 @@ export default function Home() {
       description="Peti enables secure offline payments using smart hardware. Accept payments without internet at kirana stores, transport, events & rural markets. No apps needed."
       keywords="offline payment India, kirana store payment device, rural payment solution, no internet payment, NFC payment device, merchant hardware, Peti device"
     >
+      {/* Survey Banner */}
+      <div className={styles.surveyBanner}>
+        <span className={styles.surveyText}>📋 Help us to be grounded!</span>
+        <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdx5wzB91PE9x-vwdAhkPUFYREShyUqnuPHYrTaknNEZcw0xA/viewform?usp=publish-editor"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.surveyButton}
+        >
+          Take Our Survey
+        </a>
+      </div>
+
       {/* Hero Section */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
